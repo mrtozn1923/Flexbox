@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Giriş</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+        }
+        .box-red{
+            background-color: red;
+            float: left;
+        }
+        .box-blue{
+            background-color: blue;
+            float: right;
+        }
+        .container{
+            height: 300px;
+            background-color: gray;
+        }
+        .box-green{
+            background-color: green;
+        }
+        .clearfix{
+            content: '';
+            clear: both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    
+
+<!-- <div class="box box-red">
+
+</div>
+<div class="box box-blue"> 
+
+</div>
+<p class="clearfix">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum eum facere! Mollitia, molestias reprehenderit, commodi amet ex dolorum nostrum, eveniet accusamus velit quae corporis ab quasi aliquam minima neque!</p>
+
+<img style="float: left;" src="img/sunset.jpg" alt="" width="200" height="200">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum eum facere! Mollitia, molestias reprehenderit, commodi amet ex dolorum nostrum, eveniet accusamus velit quae corporis ab quasi aliquam minima neque!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum eum facere! Mollitia, molestias reprehenderit, commodi amet ex dolorum nostrum, eveniet accusamus velit quae corporis ab quasi aliquam minima neque!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum eum facere! Mollitia, molestias reprehenderit, commodi amet ex dolorum nostrum, eveniet accusamus velit quae corporis ab quasi aliquam minima neque!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum eum facere! Mollitia, molestias reprehenderit, commodi amet ex dolorum nostrum, eveniet accusamus velit quae corporis ab quasi aliquam minima neque!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum eum facere! Mollitia, molestias reprehenderit, commodi amet ex dolorum nostrum, eveniet accusamus velit quae corporis ab quasi aliquam minima neque!
+</p>
+
+<div class="container">
+    <div class="box box-green" style="position: relative; top: 25%; left:25%;"></div>
+</div>
+
+<table style="width: 100%; background-color: orange;">
+    <tr>
+        <td><div class="box box-green"></div></td>
+        <td><div class="box box-blue"></div></td>
+    </tr>
+</table> -->
+
+<!-- <div class="box box-green" style="margin-left:auto; margin-right:auto;"></div> -->
+
+<!-- <div class="container" style="height:100vh;">
+    <div class="box box-green" style="position: relative; top:50%; left:50%; transform: translate(-50%,-50%);"></div>
+</div> -->
+
+<div class="container" style="height:100vh; display: flex; align-items: center; justify-content: center; flex-direction: row;">
+    <div class="box box-green">
+
+    </div>
+</div>
+
+<!-- <div class="container" style="height:100vh; display: flex; align-items: center; justify-content: start; flex-direction: column;">
+    <div class="box box-green">
+
+    </div>
+    <div class="box box-green">
+
+    </div>
+</div> -->
+
+<!-- <div class="container" style="height:100vh; display: flex; align-items: center; justify-content: start; flex-direction: row;">
+    <div class="box box-green">
+
+    </div>
+    <div class="box box-green">
+
+    </div>
+</div> -->
+
+
+
+</body>
+</html>
