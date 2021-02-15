@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Özellikleri-Flex Flow</title>
+    <style>
+        .body{
+            margin: 0;
+        }
+        .container{
+            background-color: brown;
+            display: flex;
+            /* flex-flow: row wrap; */
+            /* flex-wrap: wrap; */
+            flex-flow: column wrap;
+            justify-content: center;
+            align-content: space-evenly;
+            height: 500px;
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: darkblue;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+   <h1>Container Özellikleri-Flex Flow</h1> 
+   <div class="container">
+       <div class="item">1</div>
+       <div class="item">2</div>
+       <div class="item">3</div>
+       <div class="item">4</div>
+       <div class="item">5</div>
+       <div class="item">6</div>
+       <div class="item">7</div>
+       <div class="item">8</div>
+   </div>
+
+   
+</body>
+</html>
