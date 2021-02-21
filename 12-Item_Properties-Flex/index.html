@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Properties-Flex</title>
+    <style>
+        /* 
+            flex: 0 1 auto -> varsayılan
+            flex: 1 ->flex-grow
+            flex: 300px ->flex-basis
+            flex: 1 200% ->flex-grow flex-basis
+            flex: 1 1 ->flex-grow flex-shrink
+            flex: 1 0 200%
+         */
+
+        .body{
+            margin: 0;
+        }
+        .container{
+            background-color: brown;
+            display: flex;
+            height: 400px;
+            width: 200px;
+            flex-direction: column;
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+        .item1{
+            background-color: darkblue;
+            /* flex-grow: 1; */
+            /* flex-shrink: 0; */
+            /* flex: 0 0; */
+            /* flex-basis: 60%; */
+            /* flex: 0 0 60%; */
+            /* flex: 1; */
+            flex: auto; /*1 1 auto*/
+        }
+        .item2{
+            background-color: darkgreen;
+            /* flex: 2; */
+            flex: auto; /*1 1 auto*/
+        }
+        .item3{
+            background-color: black;
+            /* flex: 1; */
+            flex: auto; /*1 1 auto*/
+        }
+    </style>
+</head>
+<body>
+    
+   <h1>Item Özellikleri-Flex (grow shrink basis)</h1> 
+   <div class="container">
+       <div class="item item1">1</div>
+       <div class="item item2">2</div>
+       <div class="item item3">3</div>
+   </div>
+
+   
+</body>
+</html>
