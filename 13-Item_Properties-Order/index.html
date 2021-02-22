@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Properties-Order</title>
+    <style>
+        .body{
+            margin: 0;
+        }
+        .container{
+            background-color: brown;
+            display: flex;
+            height: 400px;
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            
+        }
+        .item1{
+            background-color: darkblue;
+            /* order: 2; */
+        }
+        .item2{
+            background-color: darkgreen;
+            /* order: -1; */
+            /* order: 0; */
+        }
+        .item3{
+            background-color: black;
+            /* order: 1; */
+        }
+        @media (min-width:768px){
+            .item2{
+                order: -1;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+   <h1>Item Özellikleri-Order (Eleman Sıralama)</h1> 
+   <div class="container">
+       <div class="item item1">1</div>
+       <div class="item item2">2</div>
+       <div class="item item3">3</div>
+   </div>
+
+   
+</body>
+</html>
