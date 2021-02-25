@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Properties-Özet</title>
+    <style>
+        .body{
+            margin: 0;
+        }
+        .container{
+            background-color: brown;
+            display: flex;
+            height: 400px;
+            /* width: 300px; */
+        }
+        .item{
+            width: 100px;
+            /* max-width: 120px; */
+            /* height: 100px; */
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            /* flex-basis: 25%; */
+        }
+        .item1{
+            background-color: darkblue;
+            flex-basis: 150px;
+            flex-shrink: 0;
+            align-self: flex-end;
+            height: 50%;
+        }
+        .item2{
+            background-color: darkgreen;
+            flex-grow: 1;
+            flex-shrink: 0;
+            order: -1;
+        }
+        .item3{
+            background-color: black;
+            flex-basis: 150px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    
+   <h1>Item Özellikleri-Özet</h1> 
+   <div class="container">
+       <div class="item item1">1</div>
+       <div class="item item2">2</div>
+       <div class="item item3">3</div>
+   </div>
+
+   
+</body>
+</html>
