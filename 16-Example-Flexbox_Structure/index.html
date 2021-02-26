@@ -13,6 +13,7 @@
         
         body {
             margin: 0;
+            color: white;
         }
         
         .header {
@@ -24,7 +25,6 @@
             height: 50px;
             background-color: darkblue;
             width: 200px;
-            color: white;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -38,7 +38,6 @@
             align-items: center;
             justify-content: center;
             background-color: darkred;
-            color: white;
         }
         
         .link {
@@ -48,13 +47,37 @@
             align-items: center;
             justify-content: center;
             background-color: black;
-            color: white;
         }
         
         .link:nth-child(odd) {
             background-color: rgb(32, 31, 31);
         }
         
+        .slider {
+            height: 300px;
+            background-color: darkgreen;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .about {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .about-item{
+            width: 100%;
+            height: 200px;
+            background-color: darkorange;
+            display: flex;
+            align-items: center;
+            justify-content: inherit;
+        }
+        .about-item:nth-child(odd){
+            opacity: 0.7;
+        }
+
         @media (min-width:768px) {
             .header {
                 flex-wrap: nowrap;
@@ -62,6 +85,10 @@
             .link {
                 flex-shrink: 0;
                 flex-basis: 100px;
+            }
+            .about-item{
+                /* width: 50%; */
+                max-width: 384px;
             }
         }
     </style>
@@ -77,6 +104,13 @@
         <div class="link">sabit</div>
         <div class="link">sabit</div>
     </header>
+    <section class="slider">
+        daraltılabilir tek parça yapı
+    </section>
+    <section class="about">
+        <div class="about-item">minimum genişlik</div>
+        <div class="about-item">minimum genişlik</div>
+    </section>
 
 </body>
 
