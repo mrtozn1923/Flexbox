@@ -7,8 +7,6 @@
 ![Screenshot](0-Content/introduction1.png)
 ![Screenshot](0-Content/introduction2.png)
 ![Screenshot](0-Content/introduction3.png)
-![Screenshot](0-Content/FlexboxContainerProperties.png)
-![Screenshot](0-Content/FlexboxItemProperties.png)
 ![Screenshot](0-Content/day80-flexbox-1.png)
 ![Screenshot](0-Content/day80-flexbox-2.png)
 ![Screenshot](0-Content/day80-flexbox-3.png)
